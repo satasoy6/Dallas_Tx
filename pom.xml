@@ -58,7 +58,8 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<includes>
-						<include>**/*TestRunner.java</include>
+						<include>**/*EmergencyContactRunner.java</include>
+					
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
@@ -75,7 +76,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>TeamProject</projectName>
+							<projectName>Dallas_Tx</projectName>
 							<!-- output directory for the generated report -->
 							<outputDirectory>${project.build.directory}</outputDirectory>
 							<!-- optional, defaults to outputDirectory if not specified -->

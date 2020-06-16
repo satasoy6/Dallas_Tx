@@ -43,13 +43,12 @@ public class ContactDetailsSteps extends CommonMethods {
 		sendText(cdetails.address1,"450 Pittman Rd");
 		sendText(cdetails.address2,"Apt 536");
 		sendText(cdetails.city,"Fairfield");
-	//	sendText(cdetails.state,"CA");
+
 		selectDdValue(cdetails.state,"California");
 		sendText(cdetails.zipCode,"94534");
 		click(cdetails.country);
 		selectDdValue(cdetails.country,"United States");
-//		Select select=new Select(cdetails.country);
-//		select.selectByVisibleText("United States");
+
 		sendText(cdetails.homeTel,"8008008080");
 		sendText(cdetails.mobile,"2016737070");
 		sendText(cdetails.workTel,"2126667788");

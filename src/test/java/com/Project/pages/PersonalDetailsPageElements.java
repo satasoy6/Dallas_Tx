@@ -1,3 +1,5 @@
+
+
 package com.Project.pages;
 
 import java.util.List;
@@ -25,7 +27,11 @@ public WebElement employeeId;
 @FindBy(xpath="//div[@id='profile-pic']//h1")
 public WebElement profilePic;
 
+@FindBy(xpath="//ul[@id='sidenav']/li")
+public List<WebElement > persDetailDD ;
 
+@FindBy(xpath="//div[@id='sidebar']/ul/li[4]")
+public WebElement dependent;
 
 public PersonalDetailsPageElements() {//Constractor to initilize 
 	PageFactory.initElements(BaseClass.driver, this);

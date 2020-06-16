@@ -57,7 +57,7 @@ public class ContactDetailsElements extends CommonMethods{
 	@FindBy(id = "contact_emp_oth_email")
 	public WebElement otherEmail;
 	
-	@FindBy(xpath="//table[@id='resultTable']/tbody/tr/td[2]")
+	@FindBy(xpath="//table[@id='resultTable']/tbody/tr/td[2]/a")
 	public WebElement searchResult;
 	
 	public ContactDetailsElements() {
